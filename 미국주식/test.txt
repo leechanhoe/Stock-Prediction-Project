@@ -1,0 +1,121 @@
+Evaluating NASDAQ
+NASDAQ Test Accuracy on XOM: 0.5142
+Evaluating S&P500
+S&P500 Test Accuracy on XOM: 0.5142
+Evaluating Dow Jones
+Dow Jones Test Accuracy on XOM: 0.5142
+Evaluating Apple
+Apple Test Accuracy on XOM: 0.5142
+Evaluating Microsoft
+Microsoft Test Accuracy on XOM: 0.5127
+
+The best model for XOM is NASDAQ with accuracy 0.5142
+60개의 직전 거래일 데이터로 예측 / mean : 0.5139143705368042
+
+
+Evaluating NASDAQ
+NASDAQ Test Accuracy on XOM: 0.5147
+Evaluating S&P500
+S&P500 Test Accuracy on XOM: 0.5147
+Evaluating Dow Jones
+Dow Jones Test Accuracy on XOM: 0.5147
+Evaluating Apple
+Apple Test Accuracy on XOM: 0.5147
+Evaluating Microsoft
+Microsoft Test Accuracy on XOM: 0.5148
+
+The best model for XOM is Microsoft with accuracy 0.5148
+200개의 직전 거래일 데이터로 예측 / mean : 0.5147187352180481
+
+
+
+원래 0.5142
+
+Evaluating NASDAQ
+NASDAQ Test Accuracy on XOM: 0.5140
+Evaluating S&P500
+S&P500 Test Accuracy on XOM: 0.5140
+Evaluating Dow Jones
+Dow Jones Test Accuracy on XOM: 0.5140
+Evaluating Apple
+Apple Test Accuracy on XOM: 0.5140
+Evaluating Microsoft
+Microsoft Test Accuracy on XOM: 0.5177
+
+The best model for XOM is Microsoft with accuracy 0.5177
+50개의 직전 거래일 데이터로 예측 + 이평선추가 / mean : 0.5147520184516907
+
+
+Evaluating NASDAQ
+NASDAQ Test Accuracy on XOM: 0.5140
+Evaluating S&P500
+S&P500 Test Accuracy on XOM: 0.5140
+Evaluating Dow Jones
+Dow Jones Test Accuracy on XOM: 0.5140
+Evaluating Apple
+Apple Test Accuracy on XOM: 0.5137
+Evaluating Microsoft
+Microsoft Test Accuracy on XOM: 0.5140
+
+The best model for XOM is NASDAQ with accuracy 0.5140
+위에서 볼린져밴드 추가/ mean : 0.5139597415924072
+
+
+Evaluating NASDAQ
+NASDAQ Test Accuracy on XOM: 0.5140
+Evaluating S&P500
+S&P500 Test Accuracy on XOM: 0.5140
+Evaluating Dow Jones
+Dow Jones Test Accuracy on XOM: 0.5140
+Evaluating Apple
+Apple Test Accuracy on XOM: 0.5140
+Evaluating Microsoft
+Microsoft Test Accuracy on XOM: 0.5174
+
+The best model for XOM is Microsoft with accuracy 0.5174
+위에서 RSI 추가 / mean : 0.5146886348724365
+
+
+Evaluating NASDAQ
+NASDAQ Test Accuracy on XOM: 0.5134
+Evaluating S&P500
+S&P500 Test Accuracy on XOM: 0.5140
+Evaluating Dow Jones
+Dow Jones Test Accuracy on XOM: 0.5140
+Evaluating Apple
+Apple Test Accuracy on XOM: 0.5115
+Evaluating Microsoft
+Microsoft Test Accuracy on XOM: 0.5142
+
+The best model for XOM is Microsoft with accuracy 0.5142
+위에서 MACD 추가 / mean : 0.5134210228919983
+
+
+Evaluating NASDAQ
+NASDAQ Test Accuracy on XOM: 0.5140
+Evaluating S&P500
+S&P500 Test Accuracy on XOM: 0.5140
+Evaluating Dow Jones
+Dow Jones Test Accuracy on XOM: 0.5140
+Evaluating Apple
+Apple Test Accuracy on XOM: 0.5140
+Evaluating Microsoft
+Microsoft Test Accuracy on XOM: 0.5128
+
+The best model for XOM is NASDAQ with accuracy 0.5140
+위에서 ADX 추가 / mean : 0.5137696027755737
+
+
+Evaluating NASDAQ
+NASDAQ Test Accuracy on XOM: 0.5083
+Evaluating S&P500
+S&P500 Test Accuracy on XOM: 0.5140
+Evaluating Dow Jones
+Dow Jones Test Accuracy on XOM: 0.5140
+Evaluating Apple
+Apple Test Accuracy on XOM: 0.5140
+Evaluating Microsoft
+Microsoft Test Accuracy on XOM: 0.5140
+
+The best model for XOM is S&P500 with accuracy 0.5140
+위에서 일목균형표 추가 / mean : 0.5128822565078736
