@@ -1,0 +1,14 @@
+48일 예측
+
+에포크 35의 0.868~0.88에서 상승예측
+55개데이터로
+2/2 - 0s - loss: 0.6988 - acc: 0.7091 - 97ms/epoch - 48ms/step
+2/2 - 0s - loss: 0.6792 - acc: 0.6364 - 102ms/epoch - 51ms/step
+
+에포크 32의 0.935~0.955에서 상승예측
+3/3 - 0s - loss: 1.0270 - acc: 0.6582 - 183ms/epoch - 61ms/step
+3/3 - 0s - loss: 0.7907 - acc: 0.6456 - 192ms/epoch - 64ms/step
+
+에포크 35의 0.75~0.77에서 하락예측
+3/3 - 0s - loss: 0.7370 - acc: 0.6000 - 112ms/epoch - 37ms/step
+3/3 - 0s - loss: 0.7665 - acc: 0.5778 - 110ms/epoch - 37ms/step
