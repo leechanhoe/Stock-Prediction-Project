@@ -1,0 +1,12 @@
+2014~2022 학습데이터로 2023 예측할 때
+32에포크는 0.7~0.8, 35에포크는 0.6~0.7일때 159개 추출되고 정확도 0.5723
+
+change8은 0.7~0.9, change9는 0.7~0.8일때 118개 추출되고 정확도 0.6017
+
+change6은 0.8~0.87 change 10은 0.6~0.8일때 116개 추출되고 정확도 0.6121
+
+그냥 싹다 0.6~0.9로 하면 108개 추출되고 정확도 0.6019
+
+0.6 <= pred_probs6[i][pred_probs6_max_idx] <= 0.9 and 0.6 <= pred_probs7[i][pred_probs7_max_idx] <= 0.9 and 0.7 <= pred_probs8[i][pred_probs8_max_idx] <= 0.9 and 0.6 <= pred_probs9[i][pred_probs9_max_idx] <= 0.9 and 0.6 <= pred_probs10[i][pred_probs10_max_idx] <= 0.8:
+로하면 50개 추출되고
+정확도 0.74
