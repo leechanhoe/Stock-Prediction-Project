@@ -1,0 +1,26 @@
+if pred_probs6_max_idx == pred_probs7_max_idx == pred_probs8_max_idx == pred_probs9_max_idx == pred_probs10_max_idx and 0.5 < pred_probs6[i][1] and 0.5 <= pred_probs6[i][pred_probs6_max_idx] <= 0.98 and 0.5 <= pred_probs7[i][pred_probs7_max_idx] <= 0.98 and 0.75 <= pred_probs8[i][pred_probs8_max_idx] <= 1 and 0.54 <= pred_probs9[i][pred_probs9_max_idx] <= 0.97 and 0.75 <= pred_probs10[i][pred_probs10_max_idx] <= 1:
+
+상승은 위 코드에서 39개에 정확도 0.8947
+
+if pred_probs6_max_idx == pred_probs7_max_idx == pred_probs8_max_idx == pred_probs9_max_idx == pred_probs10_max_idx and 0.5 < pred_probs6[i][0] and 0.5 <= pred_probs6[i][pred_probs6_max_idx] <= 0.9 and 0.5 <= pred_probs7[i][pred_probs7_max_idx] <= 1 and 0.69 <= pred_probs8[i][pred_probs8_max_idx] <= 1 and 0.55 <= pred_probs9[i][pred_probs9_max_idx] <= 0.97 and 0.56 <= pred_probs10[i][pred_probs10_max_idx] <= 1:
+
+하락은 위 코드에서 40개에 정확도 0.725
+
+
+
+5일치만 라벨링
+
+if pred_probs6_max_idx == pred_probs7_max_idx == pred_probs8_max_idx == pred_probs9_max_idx == pred_probs10_max_idx and 0.5 < pred_probs6[i][0] and 0.64 <= pred_probs6[i][pred_probs6_max_idx] <= 1 and 0.67 <= pred_probs7[i][pred_probs7_max_idx] <= 1 and 0.6 <= pred_probs8[i][pred_probs8_max_idx] <= 1 and 0.52 <= pred_probs9[i][pred_probs9_max_idx] <= 1 and 0.59 <= pred_probs10[i][pred_probs10_max_idx] <= 1:
+
+하락은 위 코드에서 39개에 정확도 0.7436
+
+if pred_probs6_max_idx == pred_probs7_max_idx == pred_probs8_max_idx == pred_probs9_max_idx == pred_probs10_max_idx and 0.5 < pred_probs6[i][1] and 0.69 <= pred_probs6[i][pred_probs6_max_idx] <= 0.95 and 0.6 <= pred_probs7[i][pred_probs7_max_idx] <= 0.8 and 0.55 <= pred_probs8[i][pred_probs8_max_idx] <= 0.85 and 0.5 <= pred_probs9[i][pred_probs9_max_idx] <= 1 and 0.6 <= pred_probs10[i][pred_probs10_max_idx] <= 0.8:
+
+상승은 위 코드에서 39개에 정확도 0.641
+
+
+4 5 는 10일치, 6 7 8은 5일치만 라벨링
+
+if pred_probs6_max_idx == pred_probs7_max_idx == pred_probs8_max_idx == pred_probs9_max_idx == pred_probs10_max_idx and 0.5 < pred_probs6[i][0] and 0.62 <= pred_probs6[i][pred_probs6_max_idx] <= 1 and 0.5 <= pred_probs7[i][pred_probs7_max_idx] <= 0.83 and 0.56 <= pred_probs8[i][pred_probs8_max_idx] <= 1 and 0.66 <= pred_probs9[i][pred_probs9_max_idx] <= 1 and 0.63 <= pred_probs10[i][pred_probs10_max_idx] <= 1:
+
+하락은 위 코드에서 37개에 정확도 0.8108
