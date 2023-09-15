@@ -1,3 +1,11 @@
+코스피잘맞추는모델
+
+model6 = load_model('drive/MyDrive/Colab Notebooks/change4.h5')
+model7 = load_model('drive/MyDrive/Colab Notebooks/change5.h5')
+model8 = load_model('drive/MyDrive/Colab Notebooks/change6.h5')
+model9 = load_model('drive/MyDrive/Colab Notebooks/pi90_daq500_label10_epoch40.h5')
+model10 = load_model('drive/MyDrive/Colab Notebooks/pi90_daq500_label10_epoch50.h5')
+
 if pred_probs6_max_idx == pred_probs7_max_idx == pred_probs8_max_idx == pred_probs9_max_idx == pred_probs10_max_idx and 0.5 < pred_probs6[i][1] and 0.5 <= pred_probs6[i][pred_probs6_max_idx] <= 0.98 and 0.5 <= pred_probs7[i][pred_probs7_max_idx] <= 0.98 and 0.75 <= pred_probs8[i][pred_probs8_max_idx] <= 1 and 0.54 <= pred_probs9[i][pred_probs9_max_idx] <= 0.97 and 0.75 <= pred_probs10[i][pred_probs10_max_idx] <= 1:
 
 상승은 위 코드에서 39개에 정확도 0.8947 - main model
@@ -47,3 +55,31 @@ if pred_probs6_max_idx == pred_probs7_max_idx == pred_probs8_max_idx == pred_pro
 if pred_probs6_max_idx == pred_probs7_max_idx == pred_probs8_max_idx == pred_probs9_max_idx == pred_probs10_max_idx and 0.5 < pred_probs6[i][1] and 0.5 <= pred_probs6[i][pred_probs6_max_idx] <= 0.98 and 0.58 <= pred_probs7[i][pred_probs7_max_idx] <= 0.99 and 0.57 <= pred_probs8[i][pred_probs8_max_idx] <= 1 and 0.81 <= pred_probs9[i][pred_probs9_max_idx] <= 0.99 and 0.56 <= pred_probs10[i][pred_probs10_max_idx] <= 0.92:
 
 상승은 위 코드에서 35개에 정확도 0.9143
+
+
+
+
+
+코스피로만 학습
+
+if pred_probs6_max_idx == pred_probs7_max_idx == pred_probs8_max_idx == pred_probs9_max_idx == pred_probs10_max_idx and 0.5 < pred_probs6[i][1] and 0.65 <= pred_probs6[i][pred_probs6_max_idx] <= 1 and 0.6 <= pred_probs7[i][pred_probs7_max_idx] <= 0.97 and 0.54 <= pred_probs8[i][pred_probs8_max_idx] <= 1 and 0.5 <= pred_probs9[i][pred_probs9_max_idx] <= 0.81 and 0.72 <= pred_probs10[i][pred_probs10_max_idx] <= 1:
+
+상승은 위 코드에서 32개에(8000개중) 정확도 0.8750
+
+
+
+코스피로만 학습 3~5
+
+from keras.models import load_model
+
+model6 = load_model('drive/MyDrive/Colab Notebooks/kospi_down_3.h5')
+model7 = load_model('drive/MyDrive/Colab Notebooks/kospi_down_35.h5')
+model8 = load_model('drive/MyDrive/Colab Notebooks/kospi_down_4.h5')
+model9 = load_model('drive/MyDrive/Colab Notebooks/kospi_down_45.h5')
+model10 = load_model('drive/MyDrive/Colab Notebooks/kospi_down_5.h5')
+
+
+
+if pred_probs6_max_idx == pred_probs7_max_idx == pred_probs8_max_idx == pred_probs9_max_idx == pred_probs10_max_idx and 0.5 < pred_probs6[i][0] and 0.61 <= pred_probs6[i][pred_probs6_max_idx] <= 0.85 and 0.59 <= pred_probs7[i][pred_probs7_max_idx] <= 0.87 and 0.5 <= pred_probs8[i][pred_probs8_max_idx] <= 0.84 and 0.59 <= pred_probs9[i][pred_probs9_max_idx] <= 0.92 and 0.55 <= pred_probs10[i][pred_probs10_max_idx] <= 0.89:
+
+하락은 위 코드에서 33개에(8000개중) 정확도 0.8485
