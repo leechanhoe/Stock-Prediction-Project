@@ -64,7 +64,7 @@
 
 2. 10거래일 후 종가가 현재 종가보다 n%(5~20) 상승(하락)한 차트들로 학습
 
-3. 5거래일 후 종가가 현재 종가보다 n%(5~20) 상승(하락)하고, 10거래일 후 종가가 5거래일 후 종가보다 n%(1~10) 상승(하락)한 차트들로 학습
+3. 5거래일 후 종가가 현재 종가보다 n%(5\~20) 상승(하락)하고, 동시에 10거래일 후 종가가 5거래일 후 종가보다 n%(1\~10) 상승(하락)한 차트들로 학습
 
 <br>
 <br>
@@ -117,11 +117,11 @@ for i in range(len(test_images)):
     pred_probs4_max_idx = np.argmax(pred_probs4[i])
     pred_probs5_max_idx = np.argmax(pred_probs5[i])
 
-    if (0.64 <= pred_probs1[i][pred_probs6_max_idx] <= 0.9
-    and 0.67 <= pred_probs2[i][pred_probs7_max_idx] <= 1 
-    and 0.6 <= pred_probs3[i][pred_probs8_max_idx] <= 1 
-    and 0.52 <= pred_probs4[i][pred_probs9_max_idx] <= 0.8
-    and 0.59 <= pred_probs5[i][pred_probs10_max_idx] <= 1):
+    if (0.64 <= pred_probs1[i][pred_probs1_max_idx] <= 0.9
+    and 0.67 <= pred_probs2[i][pred_probs2_max_idx] <= 1 
+    and 0.6 <= pred_probs3[i][pred_probs3_max_idx] <= 1 
+    and 0.52 <= pred_probs4[i][pred_probs4_max_idx] <= 0.8
+    and 0.59 <= pred_probs5[i][pred_probs5_max_idx] <= 1):
     
         selected_images.append(test_images[i])
         selected_labels.append(test_labels_one_hot[i])
